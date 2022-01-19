@@ -14,10 +14,7 @@ export default {
   } as Meta;
 
   const Template: Story<ButtonComponent> = (args: ButtonComponent) => ({
-    props: args,
-    // args: {
-    //   size: 'small'
-    // }
+    props: args
   });
   
   // export const Template: Story = () => ({
