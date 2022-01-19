@@ -1,0 +1,13 @@
+button {
+    border: 0;
+    -webkit-appearance: none;
+    background: black;
+    color: white;
+    padding: 8px 16px;
+    
+    &.buttonSizeLarge {
+        padding: 12px 24px;
+        font-size: 120%;
+        
+    }
+}
