@@ -22,7 +22,7 @@
     "components": [
         {
             "name": "ButtonComponent",
-            "id": "component-ButtonComponent-1310729a5e56a513448d41122719bc04cd0e770a415fe01dc16e1048bb187b0b9b180e5b1516cd6521e6064d9a2937fdf8dc4d119f320d0db8e1d17146186276",
+            "id": "component-ButtonComponent-0dea6917705752cc33ad7af3a4183f6871dc380388aac9c91ad64f323a8178dbd791b45fd9d945553980e1faa421cba335b018dd9bce22e4d72286e5824bdeaa",
             "file": "projects/button/src/lib/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -30,9 +30,11 @@
             "outputs": [],
             "providers": [],
             "selector": "ui-button",
-            "styleUrls": [],
+            "styleUrls": [
+                "./button.component.scss"
+            ],
             "styles": [],
-            "template": "<button [attr.disabled]=\"disabled\">{{text}}</button>\n",
+            "template": "<span><button [ngClass]=\"{'buttonSizeLarge' : size === 'large'}\" [attr.disabled]=\"disabled? true : null\">{{text}}</button></span>\n",
             "templateUrl": [],
             "viewProviders": [],
             "inputsClass": [
@@ -41,8 +43,17 @@
                     "defaultValue": "false",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 11,
+                    "line": 15,
                     "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "size",
+                    "defaultValue": "'small'",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 14,
+                    "type": "ButtonSize",
                     "decorators": []
                 },
                 {
@@ -50,7 +61,7 @@
                     "defaultValue": "'Button Label'",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 10,
+                    "line": 13,
                     "type": "string",
                     "decorators": []
                 }
@@ -65,14 +76,19 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input } from '@angular/core';\n\n@Component({\n  selector: 'ui-button',\n  template: `\n    <button [attr.disabled]=\"disabled\">{{text}}</button>\n  `\n})\nexport class ButtonComponent {\n  @Input() text: string = 'Button Label';\n  @Input() disabled: boolean = false;\n}",
+            "sourceCode": "import { Component, Input } from '@angular/core';\n\nexport type ButtonSize = 'small' | 'large';\n\n@Component({\n  selector: 'ui-button',\n  styleUrls: ['./button.component.scss'],\n  template: `\n    <span><button [ngClass]=\"{'buttonSizeLarge' : size === 'large'}\" [attr.disabled]=\"disabled? true : null\">{{text}}</button></span>\n  `\n})\nexport class ButtonComponent {\n  @Input() text: string = 'Button Label';\n  @Input() size: ButtonSize = 'small';\n  @Input() disabled: boolean = false;\n}",
             "assetsDirs": [],
-            "styleUrlsData": "",
+            "styleUrlsData": [
+                {
+                    "data": "button {\n    border: 0;\n    -webkit-appearance: none;\n    background: black;\n    color: white;\n    padding: 8px 16px;\n    \n    &.buttonSizeLarge {\n        padding: 12px 24px;\n        font-size: 120%;\n        \n    }\n}",
+                    "styleUrl": "./button.component.scss"
+                }
+            ],
             "stylesData": ""
         },
         {
             "name": "HeaderComponent",
-            "id": "component-HeaderComponent-8712b86fcd0d6ab8eaa78cf08a9ead1d0aa6c787f5a3f718ccedb63d6442317425346f54a52eababfcb2e81cbb6858f90a812a460aaff5b367ce62a28deb7f1a",
+            "id": "component-HeaderComponent-228c10ae82a588fad038f341cf75e9edff877546898c503d32678c29f1260bcef358644ef853239001d95b3bd143f5f57f3ae63091aeb0a95283e726334bda5e",
             "file": "stories/header.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -84,7 +100,7 @@
                 "./header.css"
             ],
             "styles": [],
-            "template": "<header>    <div class=\"wrapper\">\n      <div>\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n              fill=\"#FFF\"\n            />\n            <path\n              d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n              fill=\"#555AB9\"\n            />\n            <path\n              d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n              fill=\"#91BAF8\"\n            />\n          </g>\n        </svg>\n        <h1>Acme</h1>\n      </div>\n      <div>\n\n      </div>\n    </div>\n  </header>",
+            "template": "<header>    <div class=\"wrapper\">\n      <div>\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n              fill=\"#FFF\"\n            />\n            <path\n              d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n              fill=\"#555AB9\"\n            />\n            <path\n              d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n              fill=\"#91BAF8\"\n            />\n          </g>\n        </svg>\n        <h1>Acme</h1>\n      </div>\n      <div>\n        {{user ? 'user' : 'no user'}}\n      </div>\n    </div>\n  </header>",
             "templateUrl": [],
             "viewProviders": [],
             "inputsClass": [
@@ -133,7 +149,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { User } from './User';\n\n@Component({\n  selector: 'storybook-header',\n  template: `<header>\n    <div class=\"wrapper\">\n      <div>\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n              fill=\"#FFF\"\n            />\n            <path\n              d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n              fill=\"#555AB9\"\n            />\n            <path\n              d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n              fill=\"#91BAF8\"\n            />\n          </g>\n        </svg>\n        <h1>Acme</h1>\n      </div>\n      <div>\n        \n      </div>\n    </div>\n  </header>`,\n  styleUrls: ['./header.css'],\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | null = null;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\nimport { User } from './User';\n\n@Component({\n  selector: 'storybook-header',\n  template: `<header>\n    <div class=\"wrapper\">\n      <div>\n        <svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n          <g fill=\"none\" fillRule=\"evenodd\">\n            <path\n              d=\"M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z\"\n              fill=\"#FFF\"\n            />\n            <path\n              d=\"M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z\"\n              fill=\"#555AB9\"\n            />\n            <path\n              d=\"M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z\"\n              fill=\"#91BAF8\"\n            />\n          </g>\n        </svg>\n        <h1>Acme</h1>\n      </div>\n      <div>\n        {{user ? 'user' : 'no user'}}\n      </div>\n    </div>\n  </header>`,\n  styleUrls: ['./header.css'],\n})\nexport default class HeaderComponent {\n  @Input()\n  user: User | null = null;\n\n  @Output()\n  onLogin = new EventEmitter<Event>();\n\n  @Output()\n  onLogout = new EventEmitter<Event>();\n\n  @Output()\n  onCreateAccount = new EventEmitter<Event>();\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -220,13 +236,13 @@
     "modules": [
         {
             "name": "ButtonModule",
-            "id": "module-ButtonModule-01bae2f4cddca986790c838430a4f881e0a05d4a0660c1614bba84cce65284b4ab40f3fe9074d0161feefda974f6b3a5288e37039e7e8c0151b49dd30466c662",
+            "id": "module-ButtonModule-df140318c4fd3a7c8766fb698a7092bac2052520cc6288eb433280dc500e3bacdfbb45ebf8deda5fac19ba137ca9482ea8384ec2e1091c392a58329269a37c4b",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "projects/button/src/lib/button.module.ts",
             "methods": [],
-            "sourceCode": "import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';\nimport { ButtonComponent } from './button.component';\n\n\n\n@NgModule({\n  declarations: [\n    ButtonComponent\n  ],\n  imports: [\n  ],\n  exports: [\n    ButtonComponent\n  ],\n  schemas: [CUSTOM_ELEMENTS_SCHEMA]\n})\nexport class ButtonModule { }\n",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';\nimport { ButtonComponent } from './button.component';\n\n\n\n@NgModule({\n  declarations: [\n    ButtonComponent\n  ],\n  imports: [\n    CommonModule\n  ],\n  exports: [\n    ButtonComponent\n  ],\n  schemas: [CUSTOM_ELEMENTS_SCHEMA]\n})\nexport class ButtonModule { }\n",
             "children": [
                 {
                     "type": "providers",
@@ -351,8 +367,8 @@
                 "file": "stories/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story",
-                "defaultValue": "() => ({\n    props: {\n      text: 'Button',\n      disabled: false\n    },\n    argTypes: {\n      size: {\n        options: ['small', 'medium', 'large'],\n        control: { type: 'radio' },\n      },\n      disabled: { control: 'checkbox'}\n    },\n    args: {\n      disabled: false,\n      size: 'medium',\n      text: 'Button Label'\n    }\n  })"
+                "type": "Story<ButtonComponent>",
+                "defaultValue": "(args: ButtonComponent) => ({\n    props: args\n  })"
             },
             {
                 "name": "Template",
@@ -376,7 +392,19 @@
             }
         ],
         "functions": [],
-        "typealiases": [],
+        "typealiases": [
+            {
+                "name": "ButtonSize",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "\"small\" | \"large\"",
+                "file": "projects/button/src/lib/button.component.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 186
+            }
+        ],
         "enumerations": [],
         "groupedVariables": {
             "projects/button/src/test.ts": [
@@ -428,8 +456,8 @@
                     "file": "stories/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "type": "Story",
-                    "defaultValue": "() => ({\n    props: {\n      text: 'Button',\n      disabled: false\n    },\n    argTypes: {\n      size: {\n        options: ['small', 'medium', 'large'],\n        control: { type: 'radio' },\n      },\n      disabled: { control: 'checkbox'}\n    },\n    args: {\n      disabled: false,\n      size: 'medium',\n      text: 'Button Label'\n    }\n  })"
+                    "type": "Story<ButtonComponent>",
+                    "defaultValue": "(args: ButtonComponent) => ({\n    props: args\n  })"
                 }
             ],
             "stories/Header.stories.ts": [
@@ -499,7 +527,21 @@
         },
         "groupedFunctions": {},
         "groupedEnumerations": {},
-        "groupedTypeAliases": {}
+        "groupedTypeAliases": {
+            "projects/button/src/lib/button.component.ts": [
+                {
+                    "name": "ButtonSize",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "\"small\" | \"large\"",
+                    "file": "projects/button/src/lib/button.component.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 186
+                }
+            ]
+        }
     },
     "routes": [],
     "coverage": {
@@ -512,7 +554,7 @@
                 "linktype": "component",
                 "name": "ButtonComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/3",
+                "coverageCount": "0/4",
                 "status": "low"
             },
             {

@@ -8,6 +8,10 @@ button {
     &.buttonSizeLarge {
         padding: 12px 24px;
         font-size: 120%;
-        
+    }
+
+    &[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
     }
 }

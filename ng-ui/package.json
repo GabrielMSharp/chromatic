@@ -10,7 +10,8 @@
     "package": "ng build button && cd dist/button && npm pack",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "npm run docs:json && start-storybook -p 6006",
-    "build-storybook": "npm run docs:json && build-storybook"
+    "build-storybook": "npm run docs:json && build-storybook",
+    "chromatic": "npx chromatic --project-token=6897fe8b4e23"
   },
   "private": true,
   "dependencies": {
