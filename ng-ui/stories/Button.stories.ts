@@ -17,25 +17,6 @@ export default {
     props: args
   });
   
-  // export const Template: Story = () => ({
-  //   props: {
-  //     text: 'Button',
-  //     disabled: false
-  //   },
-  //   argTypes: {
-  //     buttonSize: {
-  //       options: ['small', 'medium', 'large'],
-  //       control: { type: 'radio' },
-  //     },
-  //     disabled: { control: 'checkbox'}
-  //   },
-  //   args: {
-  //     disabled: false,
-  //     buttonSize: 'medium',
-  //     text: 'Button Label'
-  //   }
-  // });
-
   export const Default = Template.bind({});
 
   Default.args = {

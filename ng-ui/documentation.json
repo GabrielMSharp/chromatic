@@ -80,7 +80,7 @@
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "button {\n    border: 0;\n    -webkit-appearance: none;\n    background: black;\n    color: white;\n    padding: 8px 16px;\n    \n    &.buttonSizeLarge {\n        padding: 12px 24px;\n        font-size: 120%;\n        \n    }\n}",
+                    "data": "button {\n    border: 0;\n    -webkit-appearance: none;\n    background: black;\n    color: white;\n    padding: 8px 16px;\n    \n    &.buttonSizeLarge {\n        padding: 12px 24px;\n        font-size: 120%;\n    }\n\n    &[disabled] {\n        opacity: 0.5;\n        cursor: not-allowed;\n    }\n}",
                     "styleUrl": "./button.component.scss"
                 }
             ],

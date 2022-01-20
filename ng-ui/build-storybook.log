@@ -21,250 +21,310 @@ Node.js version : v17.3.1
 
 Operating system : macOS Monterey
 
-[12:27:25] No configuration file found, switching to CLI flags.
-[12:27:25] Using tsconfig file : /Users/gabrielsharp/Sites/chromatic/ng-ui/tsconfig.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.gitignore
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.editorconfig
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/README.md
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/angular.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/build-storybook.log
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/documentation.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/package-lock.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/package.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/tsconfig.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.vscode/extensions.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.vscode/launch.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.vscode/tasks.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.storybook/preview.js
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.storybook/main.js
-[12:27:25] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/.storybook/typings.d.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.storybook/tsconfig.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Button.stories.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Header.stories.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Page.stories.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/User.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/header.component.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Introduction.stories.mdx
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/header.css
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/page.component.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/page.css
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/README.md
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/button-0.0.1.tgz
-[12:27:25] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/button.d.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/package.json
-[12:27:25] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/public-api.d.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/.browserslistrc
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/README.md
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/karma.conf.js
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/ng-package.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/tsconfig.lib.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/package.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/tsconfig.lib.prod.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/tsconfig.spec.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/code-brackets.svg
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/colors.svg
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/comments.svg
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/direction.svg
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/flow.svg
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/plugin.svg
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/repo.svg
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/stackalt.svg
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/esm2020/button.mjs
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/esm2020/public-api.mjs
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/fesm2020/button.mjs
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/fesm2020/button.mjs.map
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/fesm2015/button.mjs
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/fesm2015/button.mjs.map
-[12:27:25] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/lib/button.component.d.ts
-[12:27:25] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/lib/button.module.d.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/public-api.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/test.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/esm2020/lib/button.module.mjs
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/esm2020/lib/button.component.mjs
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/0584b487dbe4c25873733f6da3d113d7.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/10a1eaf884448d7e2466bb20e3c3929b.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/1778dc383fe5b418bfebdd508cc32be6.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/190b9be4e3f71af3ea87554a36644c78.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/1a9d97b9ee6db440b91f028d24d2b16c.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/2176ed177e661bd1e318f79292d46908.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/27bc95c449fdca136e307f11ba17eee7.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/28fbf89c446a23a83c0b77559f2632ad.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/311ddcf8183b421602589bb9662f8c6c.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/2e9a354334db324b5082f486c0c58964.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/35ebe0ae2809f48e06404af14254c2a4.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/3bdcb6e8aada4a849948903ecfc33672.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/3c1ed69b4db157825c0df5ea81b15894.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/3f6400af07b7c969bca664e95a7ad5c6.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/421b748d2ec3bec0989a8c85c768d073.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/42cec663b2a2aefff21507aaefb557bf.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/47be6ee4cdb407b4581ef2080e0efea7.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/4a0516801e0144dd19ddf342822007f3.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/4a2ee9634d46b6ad89bfe8f39326441a.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/53d34599348d17763bc8b010a1a88b76.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/55803be85dd3fb2d0b69c9c9eab1cb2c.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5635864959a37c9977bfc86ff83845f5.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/58933e2d44871c9109517853e00d6eb6.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/583c7b398e6cd73e4ac5c8904260819d.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/59716bfac2df4d9a9f1d825b31295856.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/59f024e8b8049212fee44ae97f7849b7.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/59bd2689d2148d974725232f8844b736.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5b2d96ecfa258ded5bfaf2413312f230.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5b99af7222466e2c7c201f707faf09cb.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5f9d762f6f2f142ae9c9c5a527f389d9.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/61f56f5d3a64b493d22333377af7a5dc.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/630ff9b35c1658507ac1d72a2e293a60.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5b94273853b47d2140b527dc70ad0a41.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/6e05b48fa0444d39f51ec3ab22767feb.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/7154e17ccf1d9b3a1045b7007467d689.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/63e1ed7b5a95daac6bdac12aa4ef202c.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/7747e17f8eceeb36389e46cf37a4ad2b.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/7fae7dde226032110cef44199d49197a.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/80657ebded1adc974084a06f8f08ca5c.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/8192a02811899014222159ca69090e64.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/831385031c1418a6f96d19b623577a12.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/8aad7064d090b41d51ed027152c847da.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/8ea1d5d176b0f7b33b747d5f74a57fbd.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/0004db64946373c14515a81a98ec48de.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9c3b2f6c7573c243bb49ddeb3c6dd6cc.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9c5f9c145410687f35f8a88bc92e6a83.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9cb65387d82aa9004ccc7dd9aff67ab1.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9d4fb09b88a6fac5b6966182163421a3.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/670bcaff397606f153ff538e40fe395d.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/a983c32bcce7ab3c3a84f376331af731.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/b0896d83190b662dffd4729647c0c142.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/c615eeca7d07cb2389b4b050b9febd36.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/df9b1f105fbe10f90be6fe71db0793a8.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e0e90aa3328805f627e343cd2386a893.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/ad888d9dd8d20d8c5b12acdf6a67a526.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e164757ae01e693f00b0c6fdc64fd43a.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e5630c4416804a467d774ed89e8a356b.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e208ee48196aee5a74df33bedf7f022d.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e68e7a7377f616dc8251135c54e66bcb.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/ec5a7ef0ae7a4c7c2c0252f577a921ba.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/f93614aaa1c50870718064e419bc3559.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/fa8ed46033a9145d1d19c317ea1b0d77.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/fe8b1f2cbbfcc7482c5794be239904d6.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.component.scss
-[12:27:25] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.component.spec.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.component.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.module.ts
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/86ac62566c94168f4c798e56d74632e5.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/94c9abd298c77d5771e03c219c2b1ee9.json
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/29/07/ce83f3fbf35b71eec1cc0c299e879fd79283a9ddaf1b98ebac96ddab4549
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/66/c5/7b003ef656209d776c6bf192225630c1fde141b8079312e9762b6daf37f5
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/7e/a1/849ef9da784095c21e1d42a78110c67c88e52e3a16eb3ee295778c152f83
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/a0/51/f077486e23f159ad15c5548d20e6cddabbc3dbff12be9c712d2499aeceb3
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/f5/25/3e2f490b96de201e38a914e1dd0fc0d1c6f981a1e584ba1ce1c490ecb87b
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/07/e9/555a1ad70e802d1011f7ec740d86917131a1f818f7c242a8ad9d142a6fa9
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/bd/70/91e3b83897a4af91d4187e09d53b81734dded697472a980126b71e5a45d3
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/39/ff/255b1ec4db2b2a4ce2426cfe6c78f3d389f94dd5e336426ea377f1a3b828
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/45/67/df014d111f3897559a9d578e6c1ea1ed7bc3b7467d564f22eea282c42705
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/0f/57/384aaffa5391084c951bb7cb82b9cafbd92afc112fb6c75759e6e9ddb06ea14248eff319d535f78ce247370c7bbefc0edffa36688d62faa6014fea18ec55
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/0f/dc/4eacc0c51e46735c563fc5c416bfdb2a0eef08a8b475c7806ee691214806bc04d043a50094db7ef7310b93512c5587c3b12e064731ab583490816090c66d
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/1c/b8/b449844e4823be8fd7e0cb51cb6c15ec41a6e6e2492664f5144b7252f91f4ab78e6fccb9309830cc3d89c94902b9115347e41f4e6427762ee893b68a23c5
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/26/73/b6371d34cb43e1f46af5aa36f771697c91e3b03ba02ac1561d6970c25d2f343bb6d606058cb2bb57b60b17a11eb745e1439ddf6b3f4344af5e64abc61706
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/13/13/aa9ab11c508a86fd4c9c20b626df9e988d1ab4a026797d2416d5465d1c86d8e184f2608c9769b04979ac52e6476c463916504ea1b4118613337929d788bf
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/2d/06/775a3438d31937c9bec002a2d0949a531e695afacaa5e48e0aa6d525fdf70f04c492f260f51782025d3530049604173ef7ce536e785373e81ba0c21763b6
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/1d/ab/4ea4d57748119e3135c397db091c1c3e86c6fe18ade763f83609769a3b0c12e0f0946856390581d93e8821ae5ef0c983c371cb0a5b4ee795c9b4b7c508fe
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/26/ac/54b792d7281e940d0621a136f1f0956d52a65084923f7741d4f36b0851afdd747daa332af8962eb2efc8464c4ccc9058649c94d42464065f99f69cf4e3ff
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/26/62/62fd27a96b62c5477999ecf905a96e89a7cf734f76d25dd61083b641f2d4be919e7271e68487e7607947572da9fcec73b2552479bb91ff3562b5d708ee7e
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/2d/8f/7a892bcb1bb2988533af33fab9e1abb32737a05ab9ec1ef5a7ed006e851c00f8d0fb4fae89c7b7c3611da5e62ab8bac83fa89b9127bc6592ba67b82c36db
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/2c/48/54d7dd5f3930bd2e17aee8d966f2bcf62292e2d953e44efc6fafc6810b97f65bff495a68eccb4eb4c6dcf6a5171c6342b4388ed594d52f1ffae282a6dbec
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/38/37/5b6ab7498b6c4b5d59f08a54adaf555eed8340e1b8e9651a75179dbd8d5c0f96b2947fae30c1409bcaa2007e0903732f9624e79207e456dd437ab71946b4
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/29/8e/c390cbf0cffb2cc820fac3c0efaedf545288c32b1514273040556e554b8db029070e4fdae9323eea2c18b0593c1abc1417c862f20960c463139cc851eeff
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/3a/d1/0d095a35f6e1db493060808f710d855fb2a54004afb72119671b02086f56766f0713ddbec4bcfc36f61ca7f1b06ac7d538ebff4be27d65499cd34ff159bd
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/3d/2a/c9752c93ffc3e739219a7af11b5632dbcb6489f3a2d59042617f028b46ba9ce4437823f7b29153878713a46dc553204d93ac00696f9f64177cf890277f39
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/53/4c/18fe5b9d19fa4730996a9ab529babbd82c2fc86a618c19e8e343e30ddeb60e13c0050764981e12535523534ef280fc90be5327d6cdd9661f6bd98b453197
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/3d/f6/600db361ec758edf38f0b53e68c2b80df8425c02b6163c3b407e3cad590768e00e54c90352c6cc46130b1d53f9f238fbed26128029fe6f6c9c2d50562936
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/5a/f9/3ea0e6fc46d0263e8f67a864278d9537026e56f3ad1a2d48401d2c37b39c4830aabc8f98a5c6337b019a09e9a37f8df9cf39043712a87a827600432dfc92
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/6b/ec/7405394371480660a2380847d27daad2280d7a3c80ceb3bb7fc31614bd0e999db75c8305e8b5fd4aaff094706c933d4a4f2e1e934b224e062746d11332bf
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/5d/c3/0f586e323674dd2e8bc6f216c8fe72c8e786f64aee4892af8937df96cf99a7ae39943093b432916a3b81a93ebac3082c728e705a4432052ee3d63c9dcd71
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/55/d2/b3d44f5389fe4493ca80c72187714b056e29ef67c6e46e1287fd1d886530feda07c83c5549bef89dfce173696ba67806addf45967e07a6a5fd7a73e17b62
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/83/12/0770719ca0c613e851f2dbf69256a6631a81034f335603cacebf3a35743899e49bf4967f67616d7d7db3acb8c74929f254aa9323ea655102076ababfbd4c
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/6d/77/d0955ac13fb9f4353061ee68b4988fb05bf6171ff71b4570eb6aaa387cb5b5c19d851f77477018d740caf217dccdefe1c31892d45ddc25e0fcb39f9d797d
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/4b/92/fa6e14ed440d8be9061624be4ed0f44ea45adf59ca7a71a608f1959df7f1289ead57b0caf55e8defe4a47153c5b6bce8be9e396aba3920f821cb8dbddfe7
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/72/98/3c9de22f6b3646b9b57c817f74c7676acfc2ea7a044b4b4814722018c3a58395600ceabfcda98980ff09924184eff47fd314adc800f6b819429ad5a1d169
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/8e/2b/5330cae0e65070da198d18e92697d94099160d48c602d3d506752bb66eb7d0585f96f803ddba86791038a6cc2bff6dc3f559056fc657a0569d71fad0222c
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/9b/ed/8aaa891934881212dff1577bf9be722bd0582c91c7abf1dccc0c46a06c9bed50ad8d7edd805971a8d80ecb442c69a06a3efdd3ff00b5d8be87e6a3c82d44
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/8d/53/ad58764bc240411378ae1c47c0c20525da378a3b143795a11bc3fdbf6c9cde6fb2de6c3947d673d5872b9ce205d6274114b3b4dfd27609a636df7fd0b600
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/97/ba/c1719f33578dd6f58440a19fba1fd6a2eaab216ded177451746da4419d2b3fcc661fb21d5738cc878f08fc1b6602d0d00774ba6d097331b4e69c1a7052f3
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/97/3a/5bebeb22a025e9b92bee773342c4b2463ff97565add6e8aac25848bd0355c87c695faa3dff7d40e04dacfc1df33d965687ec965658c78289725fdccdf424
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/91/da/78755c0bb7c5cb974c6d0d6ba6818ddd12e637b552cdf311fcd313ad824f1cd52dd2443f832af6930faf50cf2bdcc369e1dd945e80e3afe0d5e1b9032f9b
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/aa/d6/e23e82e35cc9bc53092187f3492c6f56e4bbbddcfcc141dfa6035191451c7afb78db0bfa4638de6cceaa50608bb81636958386eb7d7e28add55a95d79f84
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/b9/98/4c2608bdc85e53c71d2406d0fb98c1203ef35c9384ca5cec91987474da48b4842443c960eb6af44fbe55392cff7f3a453d2a49300c4a735d4cfd386717df
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/ae/45/df639ce12c5b5f8d79af44b7f1f5638608f8adab9fd1f7c058df9b889adb5f2ec44bd7bf50ebddf73fb39e791c576bf84ba603369ffda8cb956ac0dc219d
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/b4/b0/9cff10198df803a440cfb3a2a1d17e1a516c8de3bfce91923f8a5f5c40beb8949cfd166341e19a906ecb16c211b9f2af7da95d1452554fbba7eff17afe88
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/d7/17/cab43c9ca56a2e99128d06cf6583f8a203c011a825d59c0a4971e2c5f5de27a628a54beb97b3f10fa43e7d2ecb341b0bfb1335f86988c03cdffc679bb8d9
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/d1/48/8a1078fa0c6f9b5ef0ae791d4aa993f265306cef054a9522f1a23ced97c65754f48ccccc24125337d948b3458aa0b0bda160780b749d5d7ab9ee49f8279f
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/d9/a4/91ff92fac336d0e0bd0d9d08a4ea1b7b76495f228a4df2c4c18964a3f74539211a17ee402ca835eb55bb4f74f949f22290d88ca3efe390f280baf6465d25
-[12:27:25] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/f6/82/335a63bd8b4590d15ae4cd7d81f21ab41cd080c3fa86730c03fd2cc00d408bf983b6647ea9e24eae7fe9c32b7deb29f0e329ee1e2d9f33988b1e2a8a2113
-[12:27:25] Searching package.json file
-[12:27:25] package.json file found
-[12:27:25] Processing package.json dependencies
-[12:27:25] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
-[12:27:25] README.md file found
-[12:27:25] Error during /Users/gabrielsharp/Sites/chromatic/ng-ui/CHANGELOG read
-[12:27:25] Continuing without CHANGELOG.md file
-[12:27:25] Error during /Users/gabrielsharp/Sites/chromatic/ng-ui/CONTRIBUTING read
-[12:27:25] Continuing without CONTRIBUTING.md file
-[12:27:25] Error during /Users/gabrielsharp/Sites/chromatic/ng-ui/LICENSE read
-[12:27:25] Continuing without LICENSE.md file
-[12:27:25] Error during /Users/gabrielsharp/Sites/chromatic/ng-ui/TODO read
-[12:27:25] Continuing without TODO.md file
-[12:27:25] Get dependencies data
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Button.stories.ts
-[12:27:25] found          : Template
-[12:27:25] found          : Default
-[12:27:25] found          : Disabled
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Header.stories.ts
-[12:27:25] found          : Template
-[12:27:25] found          : LoggedIn
-[12:27:25] found          : LoggedOut
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Page.stories.ts
-[12:27:25] found          : Template
-[12:27:25] found          : LoggedIn
-[12:27:25] found          : LoggedOut
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/User.ts
-[12:27:25] found          : User
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/header.component.ts
-[12:27:25] found          : HeaderComponent
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/page.component.ts
-[12:27:25] found          : PageComponent
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/public-api.ts
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/test.ts
-[12:27:25] found          : require
-[12:27:25] found          : context
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.component.ts
-[12:27:25] found          : ButtonSize
-[12:27:25] found          : ButtonComponent
-[12:27:25] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.module.ts
-[12:27:25] found          : ButtonModule
-[12:27:25]                : - imports:
-[12:27:25]                : 	- CommonModule
-[12:27:25]                : - exports:
-[12:27:25]                : 	- ButtonComponent
-[12:27:25]                : - declarations:
-[12:27:25]                : 	- ButtonComponent
-[12:27:25] -------------------
-[12:27:25] Project statistics 
-[12:27:25] - files      : 169
-[12:27:25] - module     : 1
-[12:27:25] - component  : 3
-[12:27:25] - interface  : 1
-[12:27:25] -------------------
-[12:27:25] Prepare components
-[12:27:25]  ButtonComponent has styleUrls, include them
-[12:27:25]  HeaderComponent has styleUrls, include them
-[12:27:25]  PageComponent has styleUrls, include them
-[12:27:25] Prepare modules
-[12:27:25] Prepare interfaces
-[12:27:25] Prepare miscellaneous
-[12:27:25] Process documentation coverage report
-[12:27:25] Generating documentation in export format json
-[12:27:25] Documentation generated in ./ in 0.199 seconds
+[12:36:11] No configuration file found, switching to CLI flags.
+[12:36:11] Using tsconfig file : /Users/gabrielsharp/Sites/chromatic/ng-ui/tsconfig.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.editorconfig
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.gitignore
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/README.md
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/angular.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/documentation.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/build-storybook.log
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/package-lock.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/package.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/tsconfig.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.storybook/main.js
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.storybook/preview.js
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.storybook/tsconfig.json
+[12:36:11] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/.storybook/typings.d.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.vscode/extensions.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.vscode/launch.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.vscode/tasks.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Button.stories.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Header.stories.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Introduction.stories.mdx
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Page.stories.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/User.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/header.component.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/page.component.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/page.css
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/header.css
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/button-0.0.1.tgz
+[12:36:11] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/button.d.ts
+[12:36:11] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/public-api.d.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/package.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/README.md
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/.browserslistrc
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/karma.conf.js
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/ng-package.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/README.md
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/tsconfig.lib.prod.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/tsconfig.lib.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/code-brackets.svg
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/colors.svg
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/comments.svg
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/direction.svg
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/flow.svg
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/plugin.svg
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/repo.svg
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/assets/stackalt.svg
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/package.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/tsconfig.spec.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/esm2020/button.mjs
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/esm2020/public-api.mjs
+[12:36:11] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/lib/button.module.d.ts
+[12:36:11] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/lib/button.component.d.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/fesm2020/button.mjs
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/fesm2020/button.mjs.map
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/fesm2015/button.mjs
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/fesm2015/button.mjs.map
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/public-api.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/test.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/esm2020/lib/button.component.mjs
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/dist/button/esm2020/lib/button.module.mjs
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/0004db64946373c14515a81a98ec48de.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/04ceab60df321050fda1bbef068941bd.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/0584b487dbe4c25873733f6da3d113d7.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/04a7461e1116b4ace595e3a310f232bc.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/063ef28f6605669b38bf2776f16427cf.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/0a440e0f1f1d9d80afdc153633f31c74.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/0f6c35d06b2d53006934bf6065ff0535.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/10267e8043d93900d886062697b2753d.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/09e56d9b65f732eeab31cbadb40ff5f1.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/10a1eaf884448d7e2466bb20e3c3929b.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/171e5b0ffa14f39a990bdc6db05c0249.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/190b9be4e3f71af3ea87554a36644c78.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/1778dc383fe5b418bfebdd508cc32be6.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/1a9d97b9ee6db440b91f028d24d2b16c.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/2176ed177e661bd1e318f79292d46908.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/238eb533f138b72fe505f9ae0d4c8124.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/24f1d91736622e8f605c438dbfe132ba.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/2685107a4ec4a2a8de563b19546854fe.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/22b1a4a761863307aeda5177a0f4b2c7.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/28fbf89c446a23a83c0b77559f2632ad.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/2b70770e97fb52b75370561d113352ce.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/2e9a354334db324b5082f486c0c58964.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/2fb9c995a392f1048e492cd2c2c2725d.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/27bc95c449fdca136e307f11ba17eee7.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/311ddcf8183b421602589bb9662f8c6c.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/3245d549d64ea6bb1aa32423cacae717.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/312226c2683b126c465d06f3a272a541.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/35ebe0ae2809f48e06404af14254c2a4.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/36733bae1bf244e678ff115ecb045232.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/374cb487128606b7be2b37f9cb4b3521.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/3bdcb6e8aada4a849948903ecfc33672.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/364c7f926694a4242f559e6d94597553.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/3c1ed69b4db157825c0df5ea81b15894.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/3f6400af07b7c969bca664e95a7ad5c6.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/42cec663b2a2aefff21507aaefb557bf.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/47be6ee4cdb407b4581ef2080e0efea7.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/48c9ad1f9ca9a15b801efa6854a5ab73.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/49a6108cb7991e781cfceafc45c0ecbc.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/421b748d2ec3bec0989a8c85c768d073.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/4a0516801e0144dd19ddf342822007f3.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/4a2ee9634d46b6ad89bfe8f39326441a.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/53d34599348d17763bc8b010a1a88b76.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/55803be85dd3fb2d0b69c9c9eab1cb2c.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5635864959a37c9977bfc86ff83845f5.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/4e5c6527fb5c22f30a012caa148e262a.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/583c7b398e6cd73e4ac5c8904260819d.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/58933e2d44871c9109517853e00d6eb6.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/59bd2689d2148d974725232f8844b736.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/59f024e8b8049212fee44ae97f7849b7.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/59716bfac2df4d9a9f1d825b31295856.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5aaa09e14be4bce2c3077ea37d52add4.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5b2d96ecfa258ded5bfaf2413312f230.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5b99af7222466e2c7c201f707faf09cb.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5e1c213917e65073cd4ed9855606a4b7.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5b94273853b47d2140b527dc70ad0a41.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/5f9d762f6f2f142ae9c9c5a527f389d9.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/60870715d3940051279b8777755672f9.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/630ff9b35c1658507ac1d72a2e293a60.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/63e1ed7b5a95daac6bdac12aa4ef202c.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/670bcaff397606f153ff538e40fe395d.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/694b6b519538447e387fad52e60392ea.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/6d76784389824bb52c002084b45e07d1.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/6e05b48fa0444d39f51ec3ab22767feb.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/7112ea76a95dce9269a5709e66b8b602.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/61f56f5d3a64b493d22333377af7a5dc.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/7154e17ccf1d9b3a1045b7007467d689.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/7747e17f8eceeb36389e46cf37a4ad2b.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/80657ebded1adc974084a06f8f08ca5c.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/8192a02811899014222159ca69090e64.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/831385031c1418a6f96d19b623577a12.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/7fae7dde226032110cef44199d49197a.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/86ac62566c94168f4c798e56d74632e5.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/8aad7064d090b41d51ed027152c847da.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/92417a10b38b15814e0fc0613fa72e3a.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/8ea1d5d176b0f7b33b747d5f74a57fbd.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9291052e2ea7e73f7e2e070e516218ce.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9370307e9fdfc02f27e2706ce4a8b39a.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/97928f6172ba6b36bada793705bcbb5c.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/94c9abd298c77d5771e03c219c2b1ee9.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/99ccbdeb906a24928391af28100619b1.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9c3b2f6c7573c243bb49ddeb3c6dd6cc.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9c5f9c145410687f35f8a88bc92e6a83.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9bd4e149cf3dd61e98978072dc892698.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9dc033c718eb3892287b6901c1d0d294.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9cb65387d82aa9004ccc7dd9aff67ab1.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9e4086e3f02172f29abbdcc7b3fc3870.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/a76cb169596a7e4da756587819d1c3a1.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/a983c32bcce7ab3c3a84f376331af731.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/9d4fb09b88a6fac5b6966182163421a3.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/b0896d83190b662dffd4729647c0c142.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/bd13fb12bb0d43b9e49a013d077685f1.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/bd7be8ff6202ca15f4ab128a739d0319.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/b953e7e69c54b8f756af07493fd0d520.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/bfaecc7d29e556fcb255396bec690033.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/c0dbee3fb1770c0ec605e6f7c7f974d0.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/ad888d9dd8d20d8c5b12acdf6a67a526.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/cab72028f4a9f665463adaa922064f1b.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/c615eeca7d07cb2389b4b050b9febd36.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/c5f87fca4296a941c74957c23734bbdd.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/d04a22734e4f9883fd8cb2f9ad75e5d6.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/d05bd60b94db45150db16500710bab13.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/cda196e3df7030b57dc435768f65cc4f.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/df9b1f105fbe10f90be6fe71db0793a8.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/de913fe88dc44bc7d3964c738b7a89f9.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e0e90aa3328805f627e343cd2386a893.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e164757ae01e693f00b0c6fdc64fd43a.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e208ee48196aee5a74df33bedf7f022d.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e68e7a7377f616dc8251135c54e66bcb.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/db6ce215cbe9dc7b1c8ac1144c1a14c7.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e5630c4416804a467d774ed89e8a356b.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e7632211db30098c75b814b278c2f06b.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/eb28a80319231102b8c73fe8ed6151e4.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/eb5066edbf7e1e34d760705d4f164c19.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/ec5a7ef0ae7a4c7c2c0252f577a921ba.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/e7e3c78e2b09e0398b5e4a5a6cb61ae8.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/f93614aaa1c50870718064e419bc3559.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/ed4b2aa841a0ec1d7eaf138eadc82a63.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/fa8ed46033a9145d1d19c317ea1b0d77.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/fe8b1f2cbbfcc7482c5794be239904d6.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/babel-webpack/fbfec230fc9fcce672bc124a3f6c2eab.json
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.component.scss
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.component.ts
+[12:36:11] Ignoring       : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.component.spec.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.module.ts
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/29/07/ce83f3fbf35b71eec1cc0c299e879fd79283a9ddaf1b98ebac96ddab4549
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/07/e9/555a1ad70e802d1011f7ec740d86917131a1f818f7c242a8ad9d142a6fa9
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/39/ff/255b1ec4db2b2a4ce2426cfe6c78f3d389f94dd5e336426ea377f1a3b828
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/45/67/df014d111f3897559a9d578e6c1ea1ed7bc3b7467d564f22eea282c42705
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/8e/2e/60507c14838b2d284633c42bd454ea4a8c0759be7cb744b9f7ce81a635e9
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/66/c5/7b003ef656209d776c6bf192225630c1fde141b8079312e9762b6daf37f5
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/7e/a1/849ef9da784095c21e1d42a78110c67c88e52e3a16eb3ee295778c152f83
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/a0/51/f077486e23f159ad15c5548d20e6cddabbc3dbff12be9c712d2499aeceb3
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/f5/25/3e2f490b96de201e38a914e1dd0fc0d1c6f981a1e584ba1ce1c490ecb87b
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/index-v5/bd/70/91e3b83897a4af91d4187e09d53b81734dded697472a980126b71e5a45d3
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/13/13/aa9ab11c508a86fd4c9c20b626df9e988d1ab4a026797d2416d5465d1c86d8e184f2608c9769b04979ac52e6476c463916504ea1b4118613337929d788bf
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/0f/57/384aaffa5391084c951bb7cb82b9cafbd92afc112fb6c75759e6e9ddb06ea14248eff319d535f78ce247370c7bbefc0edffa36688d62faa6014fea18ec55
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/1d/ab/4ea4d57748119e3135c397db091c1c3e86c6fe18ade763f83609769a3b0c12e0f0946856390581d93e8821ae5ef0c983c371cb0a5b4ee795c9b4b7c508fe
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/0f/dc/4eacc0c51e46735c563fc5c416bfdb2a0eef08a8b475c7806ee691214806bc04d043a50094db7ef7310b93512c5587c3b12e064731ab583490816090c66d
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/1c/b8/b449844e4823be8fd7e0cb51cb6c15ec41a6e6e2492664f5144b7252f91f4ab78e6fccb9309830cc3d89c94902b9115347e41f4e6427762ee893b68a23c5
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/26/62/62fd27a96b62c5477999ecf905a96e89a7cf734f76d25dd61083b641f2d4be919e7271e68487e7607947572da9fcec73b2552479bb91ff3562b5d708ee7e
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/26/73/b6371d34cb43e1f46af5aa36f771697c91e3b03ba02ac1561d6970c25d2f343bb6d606058cb2bb57b60b17a11eb745e1439ddf6b3f4344af5e64abc61706
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/26/ac/54b792d7281e940d0621a136f1f0956d52a65084923f7741d4f36b0851afdd747daa332af8962eb2efc8464c4ccc9058649c94d42464065f99f69cf4e3ff
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/26/bc/947830d68783de1e780fdb276b16d14260f0aeeeebdc506b13d3c03467820799badfad3ad40fd3a7e0f94c8988d3e053df2b13445182ec35b1ad9ff4d6b7
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/29/8e/c390cbf0cffb2cc820fac3c0efaedf545288c32b1514273040556e554b8db029070e4fdae9323eea2c18b0593c1abc1417c862f20960c463139cc851eeff
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/38/37/5b6ab7498b6c4b5d59f08a54adaf555eed8340e1b8e9651a75179dbd8d5c0f96b2947fae30c1409bcaa2007e0903732f9624e79207e456dd437ab71946b4
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/4b/92/fa6e14ed440d8be9061624be4ed0f44ea45adf59ca7a71a608f1959df7f1289ead57b0caf55e8defe4a47153c5b6bce8be9e396aba3920f821cb8dbddfe7
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/3d/f6/600db361ec758edf38f0b53e68c2b80df8425c02b6163c3b407e3cad590768e00e54c90352c6cc46130b1d53f9f238fbed26128029fe6f6c9c2d50562936
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/2d/06/775a3438d31937c9bec002a2d0949a531e695afacaa5e48e0aa6d525fdf70f04c492f260f51782025d3530049604173ef7ce536e785373e81ba0c21763b6
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/3d/2a/c9752c93ffc3e739219a7af11b5632dbcb6489f3a2d59042617f028b46ba9ce4437823f7b29153878713a46dc553204d93ac00696f9f64177cf890277f39
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/2c/48/54d7dd5f3930bd2e17aee8d966f2bcf62292e2d953e44efc6fafc6810b97f65bff495a68eccb4eb4c6dcf6a5171c6342b4388ed594d52f1ffae282a6dbec
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/2d/8f/7a892bcb1bb2988533af33fab9e1abb32737a05ab9ec1ef5a7ed006e851c00f8d0fb4fae89c7b7c3611da5e62ab8bac83fa89b9127bc6592ba67b82c36db
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/3a/d1/0d095a35f6e1db493060808f710d855fb2a54004afb72119671b02086f56766f0713ddbec4bcfc36f61ca7f1b06ac7d538ebff4be27d65499cd34ff159bd
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/5a/f9/3ea0e6fc46d0263e8f67a864278d9537026e56f3ad1a2d48401d2c37b39c4830aabc8f98a5c6337b019a09e9a37f8df9cf39043712a87a827600432dfc92
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/55/d2/b3d44f5389fe4493ca80c72187714b056e29ef67c6e46e1287fd1d886530feda07c83c5549bef89dfce173696ba67806addf45967e07a6a5fd7a73e17b62
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/53/4c/18fe5b9d19fa4730996a9ab529babbd82c2fc86a618c19e8e343e30ddeb60e13c0050764981e12535523534ef280fc90be5327d6cdd9661f6bd98b453197
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/6d/77/d0955ac13fb9f4353061ee68b4988fb05bf6171ff71b4570eb6aaa387cb5b5c19d851f77477018d740caf217dccdefe1c31892d45ddc25e0fcb39f9d797d
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/72/98/3c9de22f6b3646b9b57c817f74c7676acfc2ea7a044b4b4814722018c3a58395600ceabfcda98980ff09924184eff47fd314adc800f6b819429ad5a1d169
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/6b/ec/7405394371480660a2380847d27daad2280d7a3c80ceb3bb7fc31614bd0e999db75c8305e8b5fd4aaff094706c933d4a4f2e1e934b224e062746d11332bf
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/8a/e6/5821e3da82630466f484f840740ecf58c5b1fe160d2b255cfe778fdfc5c6ad0a6812dc3e2c69bfd02c4123ff85036cba93ee2dcf1a78675fa7fb8f1c7a02
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/8d/53/ad58764bc240411378ae1c47c0c20525da378a3b143795a11bc3fdbf6c9cde6fb2de6c3947d673d5872b9ce205d6274114b3b4dfd27609a636df7fd0b600
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/83/12/0770719ca0c613e851f2dbf69256a6631a81034f335603cacebf3a35743899e49bf4967f67616d7d7db3acb8c74929f254aa9323ea655102076ababfbd4c
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/91/da/78755c0bb7c5cb974c6d0d6ba6818ddd12e637b552cdf311fcd313ad824f1cd52dd2443f832af6930faf50cf2bdcc369e1dd945e80e3afe0d5e1b9032f9b
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/5d/c3/0f586e323674dd2e8bc6f216c8fe72c8e786f64aee4892af8937df96cf99a7ae39943093b432916a3b81a93ebac3082c728e705a4432052ee3d63c9dcd71
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/9b/ed/8aaa891934881212dff1577bf9be722bd0582c91c7abf1dccc0c46a06c9bed50ad8d7edd805971a8d80ecb442c69a06a3efdd3ff00b5d8be87e6a3c82d44
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/aa/d6/e23e82e35cc9bc53092187f3492c6f56e4bbbddcfcc141dfa6035191451c7afb78db0bfa4638de6cceaa50608bb81636958386eb7d7e28add55a95d79f84
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/97/ba/c1719f33578dd6f58440a19fba1fd6a2eaab216ded177451746da4419d2b3fcc661fb21d5738cc878f08fc1b6602d0d00774ba6d097331b4e69c1a7052f3
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/ae/45/df639ce12c5b5f8d79af44b7f1f5638608f8adab9fd1f7c058df9b889adb5f2ec44bd7bf50ebddf73fb39e791c576bf84ba603369ffda8cb956ac0dc219d
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/97/3a/5bebeb22a025e9b92bee773342c4b2463ff97565add6e8aac25848bd0355c87c695faa3dff7d40e04dacfc1df33d965687ec965658c78289725fdccdf424
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/8e/2b/5330cae0e65070da198d18e92697d94099160d48c602d3d506752bb66eb7d0585f96f803ddba86791038a6cc2bff6dc3f559056fc657a0569d71fad0222c
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/b4/b0/9cff10198df803a440cfb3a2a1d17e1a516c8de3bfce91923f8a5f5c40beb8949cfd166341e19a906ecb16c211b9f2af7da95d1452554fbba7eff17afe88
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/b9/98/4c2608bdc85e53c71d2406d0fb98c1203ef35c9384ca5cec91987474da48b4842443c960eb6af44fbe55392cff7f3a453d2a49300c4a735d4cfd386717df
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/ca/0b/d3acee7bbc8d0aad935c4e8034380cc3fff47ef1510d7eeb7297d6c78ab4c2171c9633bcd1f5d1e4630f44dbf69922fa46d99a54044a90d252ad60fb5c5f
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/ce/43/571f4a75341aeb6ef9661a1d3e0d4b8f4a6a082aa46f962c24ce17419609644959b91f7bd3eadb82b00a24ce23b766e66891dd0deeaa4b663530f276fd69
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/d7/17/cab43c9ca56a2e99128d06cf6583f8a203c011a825d59c0a4971e2c5f5de27a628a54beb97b3f10fa43e7d2ecb341b0bfb1335f86988c03cdffc679bb8d9
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/d9/a4/91ff92fac336d0e0bd0d9d08a4ea1b7b76495f228a4df2c4c18964a3f74539211a17ee402ca835eb55bb4f74f949f22290d88ca3efe390f280baf6465d25
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/f6/82/335a63bd8b4590d15ae4cd7d81f21ab41cd080c3fa86730c03fd2cc00d408bf983b6647ea9e24eae7fe9c32b7deb29f0e329ee1e2d9f33988b1e2a8a2113
+[12:36:11] Including      : /Users/gabrielsharp/Sites/chromatic/ng-ui/.angular/cache/13.1.3/ng-packagr/content-v2/sha512/d1/48/8a1078fa0c6f9b5ef0ae791d4aa993f265306cef054a9522f1a23ced97c65754f48ccccc24125337d948b3458aa0b0bda160780b749d5d7ab9ee49f8279f
+[12:36:11] Searching package.json file
+[12:36:11] package.json file found
+[12:36:11] Processing package.json dependencies
+[12:36:11] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[12:36:11] README.md file found
+[12:36:11] Error during /Users/gabrielsharp/Sites/chromatic/ng-ui/CHANGELOG read
+[12:36:11] Continuing without CHANGELOG.md file
+[12:36:11] Error during /Users/gabrielsharp/Sites/chromatic/ng-ui/CONTRIBUTING read
+[12:36:11] Continuing without CONTRIBUTING.md file
+[12:36:11] Error during /Users/gabrielsharp/Sites/chromatic/ng-ui/LICENSE read
+[12:36:11] Continuing without LICENSE.md file
+[12:36:11] Error during /Users/gabrielsharp/Sites/chromatic/ng-ui/TODO read
+[12:36:11] Continuing without TODO.md file
+[12:36:11] Get dependencies data
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Button.stories.ts
+[12:36:11] found          : Template
+[12:36:11] found          : Default
+[12:36:11] found          : Disabled
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Header.stories.ts
+[12:36:11] found          : Template
+[12:36:11] found          : LoggedIn
+[12:36:11] found          : LoggedOut
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/Page.stories.ts
+[12:36:11] found          : Template
+[12:36:11] found          : LoggedIn
+[12:36:11] found          : LoggedOut
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/User.ts
+[12:36:11] found          : User
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/header.component.ts
+[12:36:11] found          : HeaderComponent
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/stories/page.component.ts
+[12:36:11] found          : PageComponent
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/public-api.ts
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/test.ts
+[12:36:11] found          : require
+[12:36:11] found          : context
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.component.ts
+[12:36:11] found          : ButtonSize
+[12:36:11] found          : ButtonComponent
+[12:36:11] parsing        : /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.module.ts
+[12:36:11] found          : ButtonModule
+[12:36:11]                : - imports:
+[12:36:11]                : 	- CommonModule
+[12:36:11]                : - exports:
+[12:36:11]                : 	- ButtonComponent
+[12:36:11]                : - declarations:
+[12:36:11]                : 	- ButtonComponent
+[12:36:11] -------------------
+[12:36:11] Project statistics 
+[12:36:11] - files      : 229
+[12:36:11] - module     : 1
+[12:36:11] - component  : 3
+[12:36:11] - interface  : 1
+[12:36:11] -------------------
+[12:36:11] Prepare components
+[12:36:11]  ButtonComponent has styleUrls, include them
+[12:36:11]  HeaderComponent has styleUrls, include them
+[12:36:11]  PageComponent has styleUrls, include them
+[12:36:11] Prepare modules
+[12:36:11] Prepare interfaces
+[12:36:11] Prepare miscellaneous
+[12:36:11] Process documentation coverage report
+[12:36:11] Generating documentation in export format json
+[12:36:11] Documentation generated in ./ in 0.248 seconds
 info @storybook/angular v6.4.13
 info 
-info => Cleaning outputDir: /var/folders/8h/0qm8mq2n43q__rwnlh00y7m00000gn/T/chromatic--61116-sxDKLogshYo9
+info => Cleaning outputDir: /var/folders/8h/0qm8mq2n43q__rwnlh00y7m00000gn/T/chromatic--61975-sF178NNUnB2g
 info => Loading presets
 info => Compiling preview..
 info => Using implicit CSS loaders
@@ -398,37 +458,34 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
-<s> [webpack.Progress] 10% building 0/16 entries 4/16 dependencies 0/4 modules
+<s> [webpack.Progress] 10% building 0/16 entries 3/16 dependencies 0/3 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@mdx-js/loader/index.js
-<s> [webpack.Progress] 10% building 0/16 entries 178/232 dependencies 2/104 modules
+<s> [webpack.Progress] 10% building 0/16 entries 157/238 dependencies 2/103 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@ngtools/webpack/src/ivy/index.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/@storybook/source-loader/dist/cjs/index.js
-<s> [webpack.Progress] 10% building 0/16 entries 369/454 dependencies 24/163 modules
-<s> [webpack.Progress] 13% building 1/16 entries 802/897 dependencies 78/253 modules
-[BABEL] Note: The code generator has deoptimised the styling of /Users/gabrielsharp/Sites/chromatic/ng-ui/node_modules/prettier/standalone.js as it exceeds the max of 500KB.
-<s> [webpack.Progress] 13% building 1/16 entries 1400/1489 dependencies 189/367 modules
+<s> [webpack.Progress] 10% building 0/16 entries 351/406 dependencies 25/152 modules
+<s> [webpack.Progress] 13% building 1/16 entries 736/1003 dependencies 91/257 modules
 <s> [webpack.Progress] 13% building import loader ./node_modules/postcss-loader/dist/cjs.js
-<s> [webpack.Progress] 13% building 1/16 entries 1439/1489 dependencies 189/374 modules
-<s> [webpack.Progress] 13% building 1/16 entries 1475/1865 dependencies 200/382 modules
-<s> [webpack.Progress] 16% building 2/16 entries 1922/1943 dependencies 260/493 modules
-<s> [webpack.Progress] 16% building 2/16 entries 1993/2400 dependencies 274/513 modules
-<s> [webpack.Progress] 16% building 2/16 entries 3288/3500 dependencies 387/801 modules
-<s> [webpack.Progress] 16% building 2/16 entries 4039/4100 dependencies 583/910 modules
-<s> [webpack.Progress] 19% building 2/16 entries 5000/5154 dependencies 842/1110 modules
-<s> [webpack.Progress] 23% building 3/16 entries 6120/6158 dependencies 1214/1388 modules
-<s> [webpack.Progress] 23% building 4/16 entries 6120/6158 dependencies 1215/1388 modules
-<s> [webpack.Progress] 27% building 5/16 entries 6120/6158 dependencies 1216/1388 modules
-<s> [webpack.Progress] 30% building 6/16 entries 6120/6158 dependencies 1217/1388 modules
-<s> [webpack.Progress] 34% building 7/16 entries 6120/6158 dependencies 1218/1388 modules
-<s> [webpack.Progress] 37% building 8/16 entries 6120/6158 dependencies 1219/1388 modules
-<s> [webpack.Progress] 40% building 9/16 entries 6120/6158 dependencies 1220/1388 modules
-<s> [webpack.Progress] 44% building 10/16 entries 6120/6158 dependencies 1221/1388 modules
-<s> [webpack.Progress] 47% building 11/16 entries 6120/6158 dependencies 1232/1388 modules
-<s> [webpack.Progress] 51% building 12/16 entries 6120/6158 dependencies 1232/1388 modules
-<s> [webpack.Progress] 51% building 12/16 entries 6571/6600 dependencies 1350/1487 modules
-<s> [webpack.Progress] 54% building 13/16 entries 6832/6836 dependencies 1522/1557 modules
+<s> [webpack.Progress] 13% building 1/16 entries 1599/1658 dependencies 201/379 modules
+[BABEL] Note: The code generator has deoptimised the styling of /Users/gabrielsharp/Sites/chromatic/ng-ui/node_modules/prettier/standalone.js as it exceeds the max of 500KB.
+<s> [webpack.Progress] 13% building 1/16 entries 1621/1700 dependencies 203/382 modules
+<s> [webpack.Progress] 16% building 2/16 entries 1687/1808 dependencies 252/389 modules
+<s> [webpack.Progress] 16% building 2/16 entries 2000/2144 dependencies 277/461 modules
+<s> [webpack.Progress] 16% building 2/16 entries 3683/3726 dependencies 431/900 modules
+<s> [webpack.Progress] 18% building 2/16 entries 5026/5100 dependencies 770/1142 modules
+<s> [webpack.Progress] 23% building 3/16 entries 5993/6034 dependencies 1184/1360 modules
+<s> [webpack.Progress] 23% building 4/16 entries 5993/6034 dependencies 1185/1360 modules
+<s> [webpack.Progress] 27% building 5/16 entries 5993/6034 dependencies 1186/1360 modules
+<s> [webpack.Progress] 30% building 6/16 entries 5993/6034 dependencies 1187/1360 modules
+<s> [webpack.Progress] 34% building 7/16 entries 5993/6034 dependencies 1188/1360 modules
+<s> [webpack.Progress] 37% building 8/16 entries 5993/6034 dependencies 1189/1360 modules
+<s> [webpack.Progress] 40% building 9/16 entries 5993/6034 dependencies 1190/1360 modules
+<s> [webpack.Progress] 44% building 10/16 entries 5993/6034 dependencies 1191/1360 modules
+<s> [webpack.Progress] 47% building 11/16 entries 5993/6034 dependencies 1195/1360 modules
+<s> [webpack.Progress] 51% building 12/16 entries 5993/6034 dependencies 1199/1360 modules
+<s> [webpack.Progress] 54% building 13/16 entries 6825/6829 dependencies 1522/1551 modules
 <s> [webpack.Progress] 58% building 14/16 entries 6840/6845 dependencies 1541/1558 modules
-<s> [webpack.Progress] 61% building 15/16 entries 6847/6847 dependencies 1561/1562 modules
+<s> [webpack.Progress] 61% building 15/16 entries 6847/6847 dependencies 1562/1562 modules
 <s> [webpack.Progress] 65% building 16/16 entries 6847/6847 dependencies 1562/1562 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
@@ -531,8 +588,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing TerserPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.d9479cde.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.d9479cde.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.68c1d0be.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.68c1d0be.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.0a1c74d8.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.0a1c74d8.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 747.7a58494e.iframe.bundle.js generate SourceMap
@@ -553,8 +610,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 899.52a67809.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.a09ad45e.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 291.a09ad45e.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 804.d15bc069.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 804.d15bc069.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 804.8d889620.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 804.8d889620.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
@@ -563,8 +620,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.350856c7.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.350856c7.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.75f3a0e3.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.75f3a0e3.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.917fc517.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.917fc517.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 747.6a6a1c06.iframe.bundle.js generate SourceMap
@@ -585,8 +642,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 899.a649ab3b.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.091c697a.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 291.091c697a.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 804.20a1b8a4.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 804.20a1b8a4.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 804.f4b62e05.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 804.f4b62e05.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing AnyComponentStyleBudgetChecker
@@ -613,7 +670,7 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 100% 
 
-info => Preview built (25 s)
+info => Preview built (20 s)
 WARN /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.component.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
 WARN /Users/gabrielsharp/Sites/chromatic/ng-ui/projects/button/src/lib/button.module.ts is part of the TypeScript compilation but it's unused.
@@ -626,16 +683,16 @@ WARN asset size limit: The following asset(s) exceed the recommended size limit 
 WARN This can impact web performance.
 WARN Assets: 
 WARN   459.28972bd2.iframe.bundle.js (657 KiB)
-WARN   804.20a1b8a4.iframe.bundle.js (3.12 MiB)
+WARN   804.f4b62e05.iframe.bundle.js (3.12 MiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
 WARN   main (3.18 MiB)
 WARN       runtime~main.917fc517.iframe.bundle.js
-WARN       804.20a1b8a4.iframe.bundle.js
-WARN       main.350856c7.iframe.bundle.js
+WARN       804.f4b62e05.iframe.bundle.js
+WARN       main.75f3a0e3.iframe.bundle.js
 WARN 
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-info => Output directory: /var/folders/8h/0qm8mq2n43q__rwnlh00y7m00000gn/T/chromatic--61116-sxDKLogshYo9
+info => Output directory: /var/folders/8h/0qm8mq2n43q__rwnlh00y7m00000gn/T/chromatic--61975-sF178NNUnB2g
