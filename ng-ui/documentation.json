@@ -22,7 +22,7 @@
     "components": [
         {
             "name": "ButtonComponent",
-            "id": "component-ButtonComponent-0dea6917705752cc33ad7af3a4183f6871dc380388aac9c91ad64f323a8178dbd791b45fd9d945553980e1faa421cba335b018dd9bce22e4d72286e5824bdeaa",
+            "id": "component-ButtonComponent-e1fcf8a27eb06bb4b064ef069a897a02ec0fb01b63248f0fdaed79b508a1c63766d4fc20b73805c4c17ce32b3bf7fe35085031bd52ffd5b00f62260f8a4ffa6c",
             "file": "projects/button/src/lib/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -76,7 +76,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input } from '@angular/core';\n\nexport type ButtonSize = 'small' | 'large';\n\n@Component({\n  selector: 'ui-button',\n  styleUrls: ['./button.component.scss'],\n  template: `\n    <span><button [ngClass]=\"{'buttonSizeLarge' : size === 'large'}\" [attr.disabled]=\"disabled? true : null\">{{text}}</button></span>\n  `\n})\nexport class ButtonComponent {\n  @Input() text: string = 'Button Label';\n  @Input() size: ButtonSize = 'small';\n  @Input() disabled: boolean = false;\n}",
+            "sourceCode": "import { Component, Input } from '@angular/core';\n\nexport type ButtonSize = 'small' | 'large';\n\n@Component({\n  selector: 'ui-button',\n  styleUrls: ['./button.component.scss'],\n  template: `\n    <span><button [ngClass]=\"{'buttonSizeLarge' : size === 'large'}\" [attr.disabled]=\"disabled? true : null\">{{text}}</button></span>\n  `\n})\nexport class ButtonComponent {\n  @Input() text: string = 'Button Label';\n  @Input() size: ButtonSize = 'small';\n  @Input() disabled: boolean = false;\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {

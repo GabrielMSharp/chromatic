@@ -1,0 +1,35 @@
+import { Meta } from '@storybook/addon-docs';
+import Code from './assets/code-brackets.svg';
+import Colors from './assets/colors.svg';
+import Comments from './assets/comments.svg';
+import Direction from './assets/direction.svg';
+import Flow from './assets/flow.svg';
+import Plugin from './assets/plugin.svg';
+import Repo from './assets/repo.svg';
+import StackAlt from './assets/stackalt.svg';
+import { ArgsTable } from '@storybook/addon-docs';
+
+
+<Meta title="MDX/Button" component={Button} />
+
+# Welcome to Buttonland
+
+Some kind of documentation here I guess
+
+<ArgsTable of={MyComponent} />
+
+<Story 
+  name="Button" >
+  {Template.bind({})}
+</Story>
+
+<ArgsTable story="Button" />
+
+<Canvas>
+  <Story name="all buttons">
+    
+      <ui-button disabled>Button Enabled</ui-button>
+      <ui-button>Button Disabled</ui-button>
+    
+  </Story>
+</Canvas>

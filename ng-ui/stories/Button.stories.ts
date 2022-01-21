@@ -4,7 +4,7 @@ import { Meta, moduleMetadata, storiesOf, Story } from '@storybook/angular';
 import { ButtonComponent, ButtonModule, ButtonSize } from 'button';
 
 export default {
-    title: 'Button',
+    title: 'Oasys/Button',
     component: ButtonComponent,
     decorators: [
         moduleMetadata({
@@ -16,6 +16,13 @@ export default {
   const Template: Story<ButtonComponent> = (args: ButtonComponent) => ({
     props: args
   });
+
+  Template.parameters = {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/N5RwsM3LOBLXohR9VZwTWW/Tokens-Spike',
+    },
+  }
   
   export const Default = Template.bind({});
 
